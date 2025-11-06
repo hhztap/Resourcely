@@ -1,5 +1,5 @@
 """
-Output formatting utilities for the 2-Week Staffing Suggester.
+Output formatting utilities for the Resourcely.
 
 This module handles:
 - Extending original table with 4 "Proposed" columns

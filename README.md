@@ -1,10 +1,10 @@
-# 2-Week Staffing Suggester
+# Resourcely
 
 A Python-based tool for optimally assigning Data Scientists (DS) and Data Engineers (DE) to projects across two weeks, ensuring role matching, availability constraints, and continuity preferences.
 
 ## Overview
 
-The 2-Week Staffing Suggester automates the complex task of staff assignment by:
+The Resourcely automates the complex task of staff assignment by:
 
 - **Role Matching**: Ensures DS roles are filled by Data Scientists and DE roles by Data Engineers
 - **Availability Constraints**: Respects individual staff availability for each week

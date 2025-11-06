@@ -1,5 +1,5 @@
 """
-CLI entrypoint for the 2-Week Staffing Suggester.
+CLI entrypoint for the Resourcely.
 
 This module provides the command-line interface for the staffing assignment tool,
 integrating all backend components and orchestrating the main workflow.
@@ -54,7 +54,7 @@ def parse_arguments() -> argparse.Namespace:
         Parsed arguments namespace
     """
     parser = argparse.ArgumentParser(
-        description="2-Week Staffing Suggester - Assign Data Scientists and Data Engineers to projects",
+        description="Resourcely - Assign Data Scientists and Data Engineers to projects",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Example usage:
@@ -481,7 +481,7 @@ def main() -> int:
         # Set up logging
         setup_logging(getattr(args, 'log_level', 'INFO'))
         
-        logging.info("Starting 2-Week Staffing Suggester")
+        logging.info("Starting Resourcely")
         
         # Validate input files
         if not validate_input_files(args.pros, args.res):

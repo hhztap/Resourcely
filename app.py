@@ -1,5 +1,5 @@
 """
-Comprehensive Streamlit App for 2-Week Staffing Suggester
+Comprehensive Streamlit App for Resourcely
 
 This app provides a web interface for the staffing assignment system that:
 - Allows file upload or selection of existing CSV files
@@ -32,7 +32,7 @@ from scripts.formatting import (
 
 # Page configuration
 st.set_page_config(
-    page_title="2-Week Staffing Suggester",
+    page_title="Resourcely",
     page_icon="👥",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -40,7 +40,7 @@ st.set_page_config(
 
 def main():
     """Main application function"""
-    st.title("👥 2-Week Staffing Suggester")
+    st.title("👥 Resourcely")
     st.markdown("---")
     
     # Initialize session state
@@ -164,7 +164,7 @@ def handle_existing_files():
 def welcome_section():
     """Display welcome information when no data is loaded"""
     st.markdown("""
-    ## Welcome to the 2-Week Staffing Suggester! 👋
+    ## Welcome to the Resourcely! 👋
     
     This application helps you assign staff to projects across two weeks while respecting constraints and preferences.
     

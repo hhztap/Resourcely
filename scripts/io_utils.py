@@ -1,5 +1,5 @@
 """
-CSV input/output utilities for the 2-Week Staffing Suggester.
+CSV input/output utilities for the Resourcely.
 
 This module handles:
 - Loading and validating CSV files

@@ -1,5 +1,5 @@
 """
-Core assignment algorithm for the 2-Week Staffing Suggester.
+Core assignment algorithm for the Resourcely.
 
 This module implements the main assignment logic that handles:
 - One person per project per week constraint

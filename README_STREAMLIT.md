@@ -1,6 +1,6 @@
-# 2-Week Staffing Suggester - Streamlit Web App
+# Resourcely - Streamlit Web App
 
-This is a comprehensive web application built with Streamlit that provides an intuitive interface for the 2-Week Staffing Suggester system.
+This is a comprehensive web application built with Streamlit that provides an intuitive interface for the Resourcely system.
 
 ## 🚀 Quick Start
 
@@ -178,4 +178,4 @@ The Streamlit app integrates seamlessly with existing modules:
 
 ---
 
-**Built with ❤️ using Streamlit and the existing 2-Week Staffing Suggester codebase**
+**Built with ❤️ using Streamlit and the existing Resourcely codebase**

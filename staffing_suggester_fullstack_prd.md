@@ -1,4 +1,4 @@
-# 🧭 PRD — 2-Week Staffing Suggester (Full Stack Interactive Tool)
+# 🧭 PRD — Resourcely (Full Stack Interactive Tool)
 
 **Owner:** Hasti Hosseinizand  
 **Version:** v2.1  
@@ -117,7 +117,7 @@ After running, users see the same editable table updated with these new columns 
 
 ### Layout
 ```
-🎢 2-Week Staffing Suggester
+🎢 Resourcely
 
 [TAB 1] Prospective Projects
   • Editable table (st.data_editor)
