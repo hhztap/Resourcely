@@ -1,0 +1,4 @@
+Project,UseCase,Starts_Week1,Starts_Week2,Week1_DS_Needed,Week1_DE_Needed,Week2_DS_Needed,Week2_DE_Needed,Proposed_DS_Week1,Proposed_DS_Week2,Proposed_DE_Week1,Proposed_DE_Week2
+Loblaw,Shelf Optimization,True,True,1,1,2,0,Hasti,"Hasti,Hinna",Gozde,
+Human,Innovation,False,False,0,0,0,0,,,,
+InnovAsian,Forecasting,False,False,0,0,0,0,,,,
