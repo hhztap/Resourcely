@@ -481,24 +481,6 @@ def display_extended_table():
             else:
                 st.error("❌ Failed to save extended table data")
         
-        # Highlight key assignment columns
-        st.markdown("### 🎯 Assignment Summary")
-        
-        assignment_cols = ['Project', 'Proposed_DS_Week1', 'Proposed_DS_Week2', 'Proposed_DE_Week1', 'Proposed_DE_Week2']
-        assignment_summary = edited_extended[assignment_cols].copy()
-        
-        # Color-code non-empty assignments
-        def highlight_assignments(val):
-            if val and val.strip():
-                return 'background-color: #e8f5e8'
-            return ''
-        
-        styled_df = assignment_summary.style.applymap(
-            highlight_assignments,
-            subset=['Proposed_DS_Week1', 'Proposed_DS_Week2', 'Proposed_DE_Week1', 'Proposed_DE_Week2']
-        )
-        
-        st.dataframe(styled_df, use_container_width=True)
     else:
         st.error("❌ No extended table available. Please run the assignment algorithm first.")
 
