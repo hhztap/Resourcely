@@ -1,0 +1,4 @@
+Project,UseCase,Starts_Week1,Starts_Week2,Week1_DS_Needed,Week1_DE_Needed,Week2_DS_Needed,Week2_DE_Needed
+Loblaw,Shelf Optimization,Yes,Yes,1,1,2,0
+Human,Innovation,No,No,0,0,0,0
+InnovAsian,Forecasting,No,No,0,0,0,0
